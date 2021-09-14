@@ -32,4 +32,4 @@ target_link_libraries(${project_name} PRIVATE libgraph gtest_main)
 
 
 include(GoogleTest)
-gtest_discover_tests(test_graph)
+gtest_discover_tests(${project_name})
